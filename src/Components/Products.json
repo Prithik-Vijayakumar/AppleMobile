@@ -1,0 +1,31 @@
+{
+    "ProductList" : [
+        {
+            "src" : "IPhone.png",
+            "name" : "Latest Iphones",
+            "description" : "The iPhone is a smartphone made by Apple, known for its sleek design, powerful performance, and smooth iOS interface. It offers high-quality cameras, a vibrant display, and access to the App Store for a wide range of apps.",
+            "link" : "https://www.apple.com/iphone/"
+        },
+
+        {
+            "src" : "Macbook.png",
+            "name" : "Latest Macbooks",
+            "description" : "MacBooks are laptops designed by Apple, known for their sleek design, high performance, and long battery life. They run on macOS, offering seamless integration with other Apple devices, and are popular for tasks like design, programming, and everyday use.",
+            "link" : "https://www.apple.com/mac/"
+        },
+
+        {
+            "src" : "IMac.png",
+            "name" : "Latest IMacs",
+            "description" : "The iMac is an all-in-one desktop computer by Apple, known for its sleek design, vibrant Retina display, and powerful performance. It integrates the computer and display into a single unit, making it ideal for creative work, productivity, and entertainment.",
+            "link" : "https://www.apple.com/imac/"
+        },
+
+        {
+            "src" : "IPad.png",
+            "name" : "Latest IPads",
+            "description" : "The iPad is a tablet by Apple, known for its sleek design, portability, and powerful performance. It runs on iPadOS, offering a versatile touchscreen experience for browsing, entertainment, and productivity, with support for apps, Apple Pencil, and keyboards.",
+            "link" : "https://www.apple.com/ipad/"
+        }
+    ]
+}
