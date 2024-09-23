@@ -13,10 +13,11 @@
     transform: scale(1.05);
 }
 
-body {
+#product-gallery {
     background-color: whitesmoke;
     height: 100%;
     width: 100%;
+    text-align: center;
 }
 
 #title {
@@ -75,6 +76,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 #product-container {
@@ -82,11 +86,8 @@ body {
     border-radius: 20px;
     background-color: white;
     border-color: black;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 2.8%;
-    margin-bottom: 2.8%;
-    max-width: 30%;
+    margin: 5%;
+    max-width: 40%;
     box-shadow: 0px 0px 20px;
     transition: transform 0.5s, box-shadow 0.5s;
 }
@@ -111,6 +112,7 @@ body {
     padding-left: 12%;
     padding-bottom: 3%;
     text-align: left;
+    text-shadow: 0px 0px 3px;
 }
 
 #product-details {
@@ -123,11 +125,11 @@ body {
     color: gray;
 }
 
-#cart {
+#to-buy {
     border-radius: 50px;
-    background-color: rgb(86, 150, 233);
-    color: white;
-    border-color: rgb(86, 150, 233);
+    background-color: whitesmoke;
+    color: black;
+    border-color: black;
     padding: 2.6%;
     margin: 5%;
     margin-bottom: 10%;
@@ -139,9 +141,9 @@ body {
 
 #more {
     border-radius: 50px;
-    background-color: white;
-    color: black;
-    border-color: black;
+    background-color: black;
+    color: whitesmoke;
+    border-color: black ;
     padding: 2.5%;
     margin-top: 4.6%;
     float: left;
@@ -151,12 +153,22 @@ body {
 }
 
 #more:hover {
-    background-color: rgb(184, 184, 184);
-    color: rgb(0, 0, 0);
-    border-color: rgb(185, 185, 185);
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px;
 }
 
-#cart:hover {
-    box-shadow: 2px 2px 50px;
-    background-color: rgb(10, 90, 194);
+#to-buy:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px;
+}
+
+#logo-gallery {
+    width: 40px;
+    height: 45px;
+    padding-top: 30px;
+    transition: 0.5s;
+}
+
+#logo-gallery:hover {
+    transform: scale(1.05);
 }

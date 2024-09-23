@@ -1,28 +1,39 @@
 import React from "react";
 import './Master.css';
 import data from './Products.json';
-import FrontPage from "./FrontPage";
+import { useNavigate } from "react-router-dom";
 
-function ProductGallery () {
-    return (
-        <>
-            <body>
-                <div id="gallery">
-                    {data.ProductList.map((product) => (
-                    <div id="product-container" key={product.src}>
-                        <img id="product" src={'../Images/' + product.src}/>
-                        <p id="product-name" key={product.src}>{product.name}</p>
-                        <p id="product-details" key={product.src}>{product.description}</p>
-                        <button id="cart">To Buy</button>
-                        <a href={product.link} target="_blank" rel="noopener noreferrer">
-                        <button id="more">Learn More</button>
-                        </a>    
-                    </div>               
-                    ))}
-                </div>    
-            </body>
-        </>
-    )
+function ProductGallery() {
+  const navigate = useNavigate();
+
+  const handleClick = (product) => {
+    if (product.src === "IPhone.png") {
+      navigate('/iPhonePage');
+    }
+  };
+
+  return (
+    <>
+      <body id="product-gallery">
+        <a href="https://www.apple.com/" target="_blank" rel="noopener noreferrer">
+          <img id="logo-gallery" src="../Images/AppleLogo.png" alt="Apple Logo" />
+        </a>
+        <div id="gallery">
+          {data.ProductList.map((product) => (
+            <div id="product-container" key={product.src}>
+              <img id="product" src={'../Images/' + product.src} alt={product.name} />
+              <p id="product-name">{product.name}</p>
+              <p id="product-details">{product.description}</p>
+              <button id="to-buy" onClick={() => handleClick(product)}>To Buy</button>
+              <a href={product.link} target="_blank" rel="noopener noreferrer">
+                <button id="more">Learn More</button>
+              </a>
+            </div>
+          ))}
+        </div>
+      </body>
+    </>
+  );
 }
 
 export default ProductGallery;

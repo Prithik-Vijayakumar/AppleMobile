@@ -2,7 +2,7 @@
     "ProductList" : [
         {
             "src" : "IPhone.png",
-            "name" : "Latest Iphones",
+            "name" : "Latest iPhones",
             "description" : "The iPhone is a smartphone made by Apple, known for its sleek design, powerful performance, and smooth iOS interface. It offers high-quality cameras, a vibrant display, and access to the App Store for a wide range of apps.",
             "link" : "https://www.apple.com/iphone/"
         },
