@@ -1,0 +1,28 @@
+{
+    "ItemList" : [
+        {
+            "src" : "Macbook Air 13 M3.png",
+            "model" : "MacBook Air 13 (13-inch) | M3 Chip | 256 GB",
+            "specifications" : "The MacBook Air 13-inch with the M3 chip offers a sleek and lightweight design, measuring 11.97 x 8.36 x 0.44 inches and weighing just 2.7 pounds. It features a 13.6-inch Liquid Retina display with a resolution of 2560 x 1664 pixels, delivering vibrant colors and sharp visuals. Powered by Apple's M3 chip, which includes an 8-core CPU and up to a 10-core GPU, it ensures fast performance for both everyday tasks and more demanding applications. The MacBook Air supports up to 24 GB of unified memory and up to 2 TB of SSD storage, offering smooth multitasking and ample space for files. With a battery life of up to 18 hours on a single charge, it provides long-lasting power. The device includes two Thunderbolt/USB 4 ports, a MagSafe 3 charging port, and a 3.5mm headphone jack. Running macOS, it supports Wi-Fi 6E and Bluetooth 5.3 for fast wireless connectivity. Additionally, the MacBook Air is equipped with a 1080p FaceTime HD camera, a three-microphone array, and a four-speaker sound system with spatial audio, making it a powerful and portable choice for professionals and everyday users alike.",
+            "price" : "$949"
+        },
+        {
+            "src" : "Macbook Air 15 M3.png",
+            "model" : "MacBook Air 15 (15-inch) | M3 Chip | 256 GB",
+            "specifications" : "The MacBook Air 15-inch with the M3 chip combines sleek design with impressive performance, measuring 13.4 x 9.35 x 0.45 inches and weighing 3.3 pounds. It features a 15.3-inch Liquid Retina display with a resolution of 2880 x 1864 pixels, providing vibrant colors and sharp detail. Powered by Apple's M3 chip, which includes an 8-core CPU and up to a 10-core GPU, it delivers fast performance for both everyday tasks and demanding applications. Supporting up to 24 GB of unified memory and up to 2 TB of SSD storage, it ensures smooth multitasking and ample space. With a battery life of up to 18 hours on a single charge, it’s built for all-day use. The MacBook Air includes two Thunderbolt/USB 4 ports, a MagSafe 3 charging port, and a 3.5mm headphone jack. Running macOS, it supports Wi-Fi 6E and Bluetooth 5.3 for fast wireless connectivity. It also comes with a 1080p FaceTime HD camera, a three-microphone array, and a six-speaker sound system with spatial audio, making it ideal for video calls and immersive sound. This balance of power, portability, and a larger display makes it perfect for professionals and users seeking extra screen space.",
+            "price" : "$1,099"
+        },
+        {
+            "src" : "Macbook Air 13 M2.png",
+            "model" : "MacBook Air 13 (13-inch) | M2 Chip | 256 GB",
+            "specifications" : "The MacBook Air 13-inch with the M2 chip offers a sleek and lightweight design, measuring 11.97 x 8.46 x 0.44 inches and weighing just 2.7 pounds. It features a 13.6-inch Liquid Retina display with a resolution of 2560 x 1664 pixels, providing vibrant colors and sharp details. Powered by Apple’s M2 chip, which includes an 8-core CPU and up to a 10-core GPU, the MacBook Air delivers fast and efficient performance for both everyday tasks and more demanding applications. It supports up to 24 GB of unified memory and up to 2 TB of SSD storage, ensuring smooth multitasking and ample storage space. With up to 18 hours of battery life on a single charge, it’s built for long-lasting productivity. The MacBook Air includes two Thunderbolt/USB 4 ports, a MagSafe 3 charging port, and a 3.5mm headphone jack. Running macOS, it supports Wi-Fi 6 and Bluetooth 5.0 for fast wireless connectivity. Additionally, the MacBook Air is equipped with a 1080p FaceTime HD camera, a three-microphone array, and a four-speaker sound system with spatial audio, making it a powerful, portable choice for professionals and everyday users alike.",
+            "price" : "$849"
+        },
+        {
+            "src" :"Macbook Air 15 M2.png",
+            "model" :"MacBook Air 15 (15-inch) | M2 Chip | 256 GB",
+            "specifications" : "The MacBook Air 15-inch with the M2 chip offers a slim and lightweight design, measuring 13.4 x 9.35 x 0.45 inches and weighing 3.3 pounds. It features a large 15.3-inch Liquid Retina display with a resolution of 2880 x 1864 pixels, delivering vibrant colors and sharp details for an immersive visual experience. Powered by Apple’s M2 chip, which includes an 8-core CPU and up to a 10-core GPU, it provides fast and efficient performance for everyday tasks and more demanding applications. The MacBook Air supports up to 24 GB of unified memory and up to 2 TB of SSD storage, ensuring smooth multitasking and plenty of storage. With up to 18 hours of battery life, it is designed for all-day productivity. The laptop is equipped with two Thunderbolt/USB 4 ports, a MagSafe 3 charging port, and a 3.5mm headphone jack. Running macOS, it supports Wi-Fi 6 and Bluetooth 5.0 for fast and reliable wireless connectivity. Additionally, the MacBook Air includes a 1080p FaceTime HD camera, a three-microphone array, and a six-speaker sound system with spatial audio, making it perfect for video calls and enjoying high-quality audio, balancing portability and power in a larger form factor.",
+            "price" : "$999"
+        }
+    ]
+}

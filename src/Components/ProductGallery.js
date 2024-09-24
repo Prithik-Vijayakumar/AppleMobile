@@ -9,6 +9,12 @@ function ProductGallery() {
   const handleClick = (product) => {
     if (product.src === "IPhone.png") {
       navigate('/iPhonePage');
+    } else if (product.src === "Macbook.png") {
+      navigate('/MacBookPage')
+    } else if (product.src === "IMac.png") {
+      navigate('/IMacPage')
+    } else if (product.src === "IPad.png") {
+      navigate('/iPadPage')
     }
   };
 

@@ -1,0 +1,16 @@
+{
+    "ItemList" : [
+        {
+            "src" : "IMac M3.png",
+            "model" : "iMac 2023 (24-inch) | M3 Chip | 1 TB",
+            "specifications" : "The iMac with the M3 chip combines sleek design and powerful performance in a compact all-in-one form, measuring just 11.5 mm thick and weighing 9.88 pounds. It features a stunning 24-inch 4.5K Retina display with a resolution of 4480 x 2520 pixels, delivering vibrant colors, sharp details, and True Tone technology for a superior viewing experience. Powered by Apple's M3 chip, featuring an 8-core CPU and up to a 10-core GPU, it provides exceptional performance for everyday tasks and creative work. Supporting up to 24 GB of unified memory and up to 2 TB of SSD storage, it ensures smooth multitasking and ample storage. The iMac is equipped with a 1080p FaceTime HD camera, a studio-quality three-microphone array, and a six-speaker sound system with spatial audio, making it perfect for video calls, media consumption, and creative projects. Connectivity includes two Thunderbolt/USB 4 ports, additional USB 3 ports, Wi-Fi 6E, and Bluetooth 5.3 for fast wireless networking. Running macOS, the iMac blends style and functionality, available in a variety of vibrant colors, making it ideal for both personal and professional use.",
+            "price" : "$2,199"
+        },
+        {
+            "src" : "IMac M1.png",
+            "model" : "iMac 2021 (24-inch) | M1 Chip | 512 GB",
+            "specifications" : "The iMac with the M1 chip combines a sleek, ultra-thin design with powerful performance, measuring just 11.5 mm thick and weighing 9.88 pounds. It features a vibrant 24-inch 4.5K Retina display with a resolution of 4480 x 2520 pixels, delivering sharp details, vivid colors, and True Tone technology for an enhanced viewing experience. Powered by Apple's M1 chip, which includes an 8-core CPU and up to an 8-core GPU, the iMac delivers fast and efficient performance for everyday tasks and creative applications. It supports up to 16 GB of unified memory and up to 2 TB of SSD storage, ensuring smooth multitasking and ample storage space. The iMac is equipped with a 1080p FaceTime HD camera, a studio-quality three-microphone array, and a six-speaker sound system with spatial audio, making it ideal for video calls, media consumption, and creative work. Connectivity includes two Thunderbolt/USB 4 ports, additional USB 3 ports, Wi-Fi 6, and Bluetooth 5.0 for fast wireless networking. Running macOS, the iMac M1 combines power, style, and functionality, making it a perfect choice for personal and professional use, and it is available in a range of vibrant colors to suit any workspace.",
+            "price" : "$1,749"
+        }
+    ]
+}

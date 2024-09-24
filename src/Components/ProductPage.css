@@ -119,3 +119,13 @@
     padding: 0;
     text-shadow: 0px 0px 4px;
 }
+
+#price {
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+    margin: 0;
+    margin-left: 7%;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 0px 0px 3px;
+}

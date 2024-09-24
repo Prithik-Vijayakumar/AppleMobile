@@ -16,6 +16,7 @@ function Iphone () {
                     <img id="product-image" src={'./Images/' + iphone.src}/>
                     <p id="product-name-text" key={iphone.src}>{iphone.model}</p>
                         <p id="spec-detail" key={iphone.src}><p id="specifications">Specifications:</p>{iphone.specifications}</p>
+                        <p id="price">{iphone.price}</p>
                     <button id="add-to-cart">Add to Cart<img id="cart-image" src="./Images/ButtonCartLogo.png"/></button>
                 </div>
         ))}
