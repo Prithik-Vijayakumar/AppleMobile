@@ -14,7 +14,7 @@ function FrontPage () {
         <body>
             <div id="page-container">
                 <a href="https://www.apple.com/" target="_blank" rel="noopener noreferrer">
-                <img src="../Images/AppleLogo.png" id="logo"/>
+                <img src={process.env.PUBLIC_URL + "/Images/AppleLogo.png"} id="logo"/>
                 </a>
                 <h1 id="title">Apple</h1>
                 <h3 id="moto">The Technologies that<br/>Surprise You!</h3>

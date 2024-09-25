@@ -22,12 +22,12 @@ function ProductGallery() {
     <>
       <body id="product-gallery">
         <a href="https://www.apple.com/" target="_blank" rel="noopener noreferrer">
-          <img id="logo-gallery" src="../Images/AppleLogo.png" alt="Apple Logo" />
+          <img id="logo-gallery" src={process.env.PUBLIC_URL + "/Images/AppleLogo.png"} alt="Apple Logo" />
         </a>
         <div id="gallery">
           {data.ProductList.map((product) => (
             <div id="product-container" key={product.src}>
-              <img id="product" src={'../Images/' + product.src} alt={product.name} />
+              <img id="product" src={process.env.PUBLIC_URL + '/Images/' + product.src} alt={product.name} />
               <p id="product-name">{product.name}</p>
               <p id="product-details">{product.description}</p>
               <button id="to-buy" onClick={() => handleClick(product)}>To Buy</button>
