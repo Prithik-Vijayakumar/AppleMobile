@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AppleMobile/static/css/main.28af1a53.css",
+    "main.css": "/AppleMobile/static/css/main.5179281c.css",
     "main.js": "/AppleMobile/static/js/main.80aae532.js",
     "static/js/453.fa7abe88.chunk.js": "/AppleMobile/static/js/453.fa7abe88.chunk.js",
     "index.html": "/AppleMobile/index.html",
-    "main.28af1a53.css.map": "/AppleMobile/static/css/main.28af1a53.css.map",
+    "main.5179281c.css.map": "/AppleMobile/static/css/main.5179281c.css.map",
     "main.80aae532.js.map": "/AppleMobile/static/js/main.80aae532.js.map",
     "453.fa7abe88.chunk.js.map": "/AppleMobile/static/js/453.fa7abe88.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28af1a53.css",
+    "static/css/main.5179281c.css",
     "static/js/main.80aae532.js"
   ]
 }
