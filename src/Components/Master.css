@@ -1,4 +1,4 @@
-@media (min-width : 1025px) {
+@media (max-width : 500px) {
 
 #page-container {
     text-align: center;
@@ -31,13 +31,13 @@
 #title-box-internal {
     margin: 0 auto;
     padding: 0;
-    max-width: 33%;
+    max-width: 58%;
 }
 
 #title {
     font-family: Helvetica, sans-serif;
     font-weight: bolder;
-    font-size: 120px;
+    font-size: 75px;
     text-shadow: 0px 0px 4px;
     transition: 0.5s;
     padding: 0;
@@ -46,19 +46,19 @@
 }
 
 #title-logo {
-    width: 90px;
-    height: 100px;
+    width: 60px;
+    height: 65px;
     transition: 0.5s;
-    padding: 0px 20px 0 0;
+    padding: 0px 15px 0 0;
 }
 
 #para {
     font-family: Helvetica, sans-serif;
     color: grey;
-    font-size: 30px;
+    font-size: 22px;
     margin: 0;
-    padding-bottom: 70px;
-    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-top: 15px;
     text-shadow: 0px 0px 5px;
     font-weight: 600;
 }
@@ -71,7 +71,7 @@
     background-color: black;
     font-family: Helvetica, sans-serif;
     margin: 0;
-    font-size: 15px;
+    font-size: 10px;
     padding: 20px;
     font-weight: bolder;
     transition: 0.5s;
@@ -94,7 +94,7 @@
     padding-left: 2%;
     padding-right: 0%;
 }
-
+    
 #product-container {
     text-align: center;
     border-radius: 20px;
@@ -111,18 +111,18 @@
 }
 
 #product {
-    width: 290px;
-    height: 155px;
+    width: 130px;
+    height: 70px;
     padding-top: 60px;
 }
 
 #product-name {
     font-family: Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 14px;
     color: black;
     font-weight: bolder;
     margin: 0;
-    padding-top: 45px;
+    padding-top: 20px;
     padding-left: 12%;
     padding-bottom: 3%;
     text-align: left;
@@ -131,7 +131,7 @@
 
 #product-details {
     font-family: Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 7px;
     text-align: left;
     padding: 12%;
     margin: 0;
@@ -151,6 +151,7 @@
     float: left;
     font-weight: bold;
     transition: 0.7s;
+    font-size: 9px;
 }
 
 #more {
@@ -164,6 +165,7 @@
     margin-bottom: 10%;
     font-weight: bold;
     transition: 0.7s;
+    font-size: 9px;
 }
 
 #more:hover {
@@ -177,8 +179,8 @@
 }
 
 #logo-gallery {
-    width: 40px;
-    height: 45px;
+    width: 28px;
+    height: 33px;
     padding-top: 30px;
     transition: 0.5s;
 }
@@ -186,5 +188,4 @@
 #logo-gallery:hover {
     transform: scale(1.05);
 }
-
 }
