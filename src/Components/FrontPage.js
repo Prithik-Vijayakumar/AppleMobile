@@ -11,17 +11,21 @@ function FrontPage () {
 
     return (
         <>
-        <body>
+        <div>
             <div id="page-container">
-                <a href="https://www.apple.com/" target="_blank" rel="noopener noreferrer">
-                <img src={process.env.PUBLIC_URL + "/Images/AppleLogo.png"} id="logo"/>
+                <a href="https://www.apple.com/" target="_blank" rel="noopener noreferrer" id="link">
+                <div id="title-box">
+                    <div id="title-box-internal">
+                <h1 id="title">
+                <img src={process.env.PUBLIC_URL + "/Images/AppleLogo.png"} id="title-logo"/>
+                Apple</h1>
+                </div>
+                </div>
                 </a>
-                <h1 id="title">Apple</h1>
-                <h3 id="moto">The Technologies that<br/>Surprise You!</h3>
                 <p id="para">Catalogue Website</p>
-                <button id="btn-1" onClick={handleClick}>Catalogue</button>
+                <button id="btn-1" onClick={handleClick}>Go to Catalogue</button>
             </div>
-        </body>
+        </div>
         </>
     )
 }
