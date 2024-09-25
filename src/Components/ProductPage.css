@@ -1,4 +1,4 @@
-@media (max-width : 500px) {
+@media (max-width : 600px) {
     
 #lists {
     display: flex;
@@ -95,7 +95,7 @@
 #cart-image {
     width: 6px;
     height: 6px;
-    margin-left: 10px;
+    margin-left: 4px;
     margin-right: 4px;
 }
 
